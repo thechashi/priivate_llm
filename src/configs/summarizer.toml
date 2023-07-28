@@ -1,5 +1,5 @@
 [model]
-model_id = "bigscience/bloom-560m"
+model_id = "bigscience/bloom-560m" #togethercomputer/RedPajama-INCITE-Base-3B-v1, bigscience/bloomz-1b7
 training_data_path = "src/data/train_data.json"
 
 [lora_config]
@@ -22,7 +22,7 @@ optim = "paged_adamw_8bit"
 remove_unused_columns = true
 
 [meta]
-adapter_path = 'vishakudupa/lora-resume-summary' #"thechashi/resume_summary_lora_bloom560m"
+adapter_path = "thechashi/resume_summary_lora_bloom560m" #thechashi/resume_summary_lora_redpajama_3B, thechashi/resume_summary_lora_bloomz1b7
 intro_blurb='''Go through the below resume thoroughly, and 
 write a short summary of the resume and highlight the positive and 
 negative aspects of the resume. Resume:'''
