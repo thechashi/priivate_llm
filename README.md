@@ -51,6 +51,11 @@ To use the document classifier and summarizer, you need to follow these steps:
 3. Employ the "Red Pjama Incite 3B" model to generate concise summaries for the classified documents.
 4. Run the document classifier using the "LLM Bloom 560M" or "LLM Bloom 1b7" model to categorize each document into specific classes or topics.
 
+## Sample Input/Output for Summarizer: 
+
+[Input Resume](src/data/sample_summarizer_io/input_resume)
+
+[Output Summary](src/data/sample_summarizer_io/output_summary)
 
 ## Speed and Lightweight Models
 
