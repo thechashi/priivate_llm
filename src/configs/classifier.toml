@@ -1,0 +1,8 @@
+[model]
+model_id = "bigscience/bloomz-560m"
+max_length = 1500
+batch_size = 1
+optimize_step = 1
+
+[dataset]
+dataset_json = "src/data/clean_resumes.json"
